@@ -1,0 +1,5 @@
+<%= simple_form_for @task, remote: true do |f|   %>
+  <%= f.input  :description, width: 250       %>
+  <%= f.input  :deadline                         %>
+  <%= f.button :submit                           %>
+<% end %>
